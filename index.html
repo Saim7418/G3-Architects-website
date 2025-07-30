@@ -5,10 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>G3 Architects</title>
     <link rel="stylesheet" href="styles/architects.css">
+    <style>
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .animate-fadeIn {
+      animation: fadeIn 1s ease-out;
+    }
+  </style>
 </head>
 <body class="work-sans-font">
+    <section class="animate-fadeIn" style="text-align:center; margin-top:50px;">
+    <h1>Welcome to G3 Architects</h1>
+    <p>We build your vision.</p>
+  </section>
     <header class="bg-light">
-        <nav class="navbar disply-flex">
+        <nav class="navbar display-flex">
             <h3 class="brand">G3 Architects</h3>
             <ul class="nav-links disply-flex">
                 <!-- li.nav-item*4>a.nav-link -->
